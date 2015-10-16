@@ -1,0 +1,109 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+  <title>NSDI op Ethiopia</title>
+  <meta name="description" content="website description" />
+  <meta name="keywords" content="website keywords, website keywords" />
+  <meta http-equiv="content-type" content="text/html; charset=windows-1252" />
+  <link rel="stylesheet" type="text/css" href="style/style.css" title="style" />
+</head>
+
+<body>
+  <div id="main">
+    <div id="header"><br>
+	<form method="post" action="#" id="search_form">
+	
+          
+        </form>
+      <div id="logo">
+        <div id="logo_text">
+          <!-- class="logo_colour", allows you to change the colour of the text -->
+          <h1><a href="index.html">   <i> NSDI of Ethiopia  </i> </a></h1>
+       
+		
+        </div>
+      </div>
+    <div id="menubar">
+        <ul id="menu">
+          <!-- put class="selected" in the li tag for the selected page - to highlight which page you're on -->
+          <li class="selected"><a href="index.html">Home</a></li>
+          <li><a href="layer.html">Layer</a></li>
+          <li><a href="createmap.html">Map</a></li>
+		 
+          <li><a href="#">people</a></li>
+          <li><a href="uploaddocument.html">Document </a></li>
+		  <li><a href="search.html">search</a></li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+					&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+					&nbsp;&nbsp;&nbsp;&nbsp;
+		  <select name="Language">
+                    <option value="English">Englis</option>
+                     <option value="Amharic">Amharic</option>
+                  </select>
+        </ul>
+      </div>
+    </div>
+    <div id="site_content">
+      <div class="sidebar">
+        <!-- insert your sidebar items here -->
+        <h3>Search</h3>
+        <form method="post" action="#" id="search_form">
+          <p>
+            <input class="search" type="text" name="search_field" value="Enter keywords....." />
+            <input name="search" type="image" style="border: 0; margin: 0 0 -9px 5px;" src="style/search.png" alt="Search" title="Search" />
+          </p>
+        </form>
+		<div class="sidebar">
+	   <p> <b>Who can view and download this data?</b> </p>
+       <input type="radio" name="permission" value="maps"> Any One  
+	    <input type="radio" name="permission" value="maps"> Any registered user<br>
+		 <input type="radio" name="permission" value="maps"> Only user who can edit <br><br>
+		 <input type="text" name="user">
+		                 <p><b>Who can edit this data?<b/></p>
+						<input type="radio" name="permission" value="maps"> Any registered user <br>
+						<input type="radio" name="permission" value="maps"> Only the following user<br><br>
+						<input type="text" name="user"><br>
+						<p><b>Who can manage and edit this data?</b></p>
+						<input type="text" name="user"><br><br>
+						<input type="button" name="Cancel" value="Cancel">
+						<input type="button" name="Apply Change" value="Apply Change">
+	     </div>
+      </div>
+	  
+      <div id="content">
+	  		<div id="contents">
+				<div class="box">
+					<div>
+						<div id="contact" class="body">
+						<br>
+						<h2><a href="uploaddocument.html">Explore Documents</a>
+	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      Upload documents</h2><br
+  	          <b> Title </b> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="text" name="documents"><br><br>
+			  <b> Abstract </b> <textarea rows="4" cols="30">
+</textarea><br><br>
+                   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <p> choose file</p>
+					&nbsp;&nbsp;<input type="text" name="document">
+					 <input type="file" name="fileField"><br /><br /><br>
+					 <input type="button" name="document" value="Upload">
+			  
+	
+
+
+
+
+				 
+						</div>
+					</div>
+				</div>
+			</div>
+      </div>
+    </div>
+    <div id="content_footer"></div>
+    <div id="footer">
+<p>      Copyright @......</p>
+    </div>
+  </div>
+</body>
+</html>

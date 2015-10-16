@@ -1,0 +1,127 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+  <title>NSDI op Ethiopia</title>
+  <meta name="description" content="website description" />
+  <meta name="keywords" content="website keywords, website keywords" />
+  <meta http-equiv="content-type" content="text/html; charset=windows-1252" />
+  <link rel="stylesheet" type="text/css" href="style/style.css" title="style" />
+</head>
+
+<body>
+  <div id="main">
+    <div id="header"><br>
+	<form method="post" action="#" id="search_form">
+	
+          
+        </form>
+      <div id="logo">
+        <div id="logo_text">
+          <!-- class="logo_colour", allows you to change the colour of the text -->
+          <h1><a href="index.html">   <i> NSDI of Ethiopia  </i> </a></h1>
+       
+		
+        </div>
+      </div>
+    <div id="menubar">
+        <ul id="menu">
+          <!-- put class="selected" in the li tag for the selected page - to highlight which page you're on -->
+          <li class="selected"><a href="index.html">Home</a></li>
+          <li><a href="layer.html">Layer</a></li>
+          <li><a href="createmap.html">Map</a></li>
+		 
+          <li><a href="#">people</a></li>
+          <li><a href="uploaddocument.html">Document </a></li>
+		  <li><a href="search.html">search</a></li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+					&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+					&nbsp;&nbsp;&nbsp;&nbsp;
+		  <select name="Language">
+                    <option value="English">Englis</option>
+                     <option value="Amharic">Amharic</option>
+                  </select>
+        </ul>
+      </div>
+    </div>
+    <div id="site_content">
+      <div class="sidebar">
+        <!-- insert your sidebar items here -->
+        <h3>Search</h3>
+        <form method="post" action="#" id="search_form">
+          <p>
+            <input class="search" type="text" name="search_field" value="Enter keywords....." />
+            <input name="search" type="image" style="border: 0; margin: 0 0 -9px 5px;" src="style/search.png" alt="Search" title="Search" />
+          </p>
+        </form>
+		<div class="sidebar">
+	   <p> <b>Who can view and download this data?</b> </p>
+       <input type="radio" name="permission" value="maps"> Any One  
+	    <input type="radio" name="permission" value="maps"> Any registered user<br>
+		 <input type="radio" name="permission" value="maps"> Only user who can edit <br><br>
+		 <input type="text" name="user">
+		                 <p><b>Who can edit this data?<b/></p>
+						<input type="radio" name="permission" value="maps"> Any registered user <br>
+						<input type="radio" name="permission" value="maps"> Only the following user<br><br>
+						<input type="text" name="user"><br>
+						<p><b>Who can manage and edit this data?</b></p>
+						<input type="text" name="user"><br><br>
+						<input type="button" name="Cancel" value="Cancel">
+						<input type="button" name="Apply Change" value="Apply Change">
+	     </div>
+      </div>
+	  
+      <div id="content">
+	  		<div id="contents">
+				<div class="box">
+					<div>
+						<div id="contact" class="body">
+						<br>
+						<input type="button" name="button" value ="Add Layer">&nbsp;&nbsp;&nbsp;
+						<input type="button" name="button" value ="Save Map">
+
+  <html>
+  <head>
+    <style>
+      #map {
+        width: 580px;
+        height: 500px;
+      }
+    </style>
+    <script src="https://maps.googleapis.com/maps/api/js"></script>
+    <script>
+      function initialize() {
+        var mapCanvas = document.getElementById('map');
+        var mapOptions = {
+          center: new google.maps.LatLng(9.03 , 38.74  ),
+          zoom: 3,
+          mapTypeId: google.maps.MapTypeId.ROADMAP
+        }
+        var map = new google.maps.Map(mapCanvas, mapOptions)
+      }
+      google.maps.event.addDomListener(window, 'load', initialize);
+    </script>
+  </head>
+  <body>
+    <div id="map">
+	</div>
+  </body>
+</html>			
+	
+
+
+
+
+				 
+						</div>
+					</div>
+				</div>
+			</div>
+      </div>
+    </div>
+    <div id="content_footer"></div>
+    <div id="footer">
+<p>      Copyright @......</p>
+    </div>
+  </div>
+</body>
+</html>

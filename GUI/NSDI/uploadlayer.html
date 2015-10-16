@@ -1,0 +1,178 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+  <title>NSDI op Ethiopia</title>
+  <meta name="description" content="website description" />
+  <meta name="keywords" content="website keywords, website keywords" />
+  <meta http-equiv="content-type" content="text/html; charset=windows-1252" />
+  <link rel="stylesheet" type="text/css" href="style/style.css" title="style" />
+</head>
+
+<body>
+  <div id="main">
+    <div id="header"><br>
+	<form method="post" action="#" id="search_form">
+	
+          
+        </form>
+      <div id="logo">
+        <div id="logo_text">
+          <!-- class="logo_colour", allows you to change the colour of the text -->
+          <h1><a href="index.html">   <i> NSDI of Ethiopia  </i> </b> </a></h1>
+       
+		
+        </div>
+      </div>
+   <div id="menubar">
+        <ul id="menu">
+          <!-- put class="selected" in the li tag for the selected page - to highlight which page you're on -->
+          <li class="selected"><a href="index.html">Home</a></li>
+          <li><a href="layer.html">Layer</a></li>
+          <li><a href="createmap.html">Map</a></li>
+		 
+          <li><a href="#">people</a></li>
+          <li><a href="uploaddocument.html">Document </a></li>
+		  <li><a href="search.html">search</a></li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+					&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+					&nbsp;&nbsp;&nbsp;&nbsp;
+		  <select name="Language">
+                    <option value="English">Englis</option>
+                     <option value="Amharic">Amharic</option>
+                  </select>
+        </ul>
+      </div>
+    </div>
+    <div id="site_content">
+      <div class="sidebar">
+        <!-- insert your sidebar items here -->
+        
+
+        <h3>Search</h3>
+        <form method="post" action="#" id="search_form">
+          <p>
+            <input class="search" type="text" name="search_field" value="Enter keywords....." />
+            <input name="search" type="image" style="border: 0; margin: 0 0 -9px 5px;" src="style/search.png" alt="Search" title="Search" />
+          </p>
+        </form>
+		<div class="sidebar">
+	   <p> <b>Who can view and download this data?</b> </p>
+       <input type="radio" name="permission" value="maps"> Any One  
+	    <input type="radio" name="permission" value="maps"> Any registered user<br>
+		 <input type="radio" name="permission" value="maps"> Only user who can edit <br><br>
+		 <input type="text" name="user">
+		                 <p><b>Who can edit this data?<b/></p>
+						<input type="radio" name="permission" value="maps"> Any registered user <br>
+						<input type="radio" name="permission" value="maps"> Only the following user<br><br>
+						<input type="text" name="user"><br>
+						<p><b>Who can manage and edit this data?</b></p>
+						<input type="text" name="user"><br><br>
+						<input type="button" name="Cancel" value="Cancel">
+						<input type="button" name="Apply Change" value="Apply Change">
+	     </div>
+      </div>
+	   
+      <div id="content">
+	  	
+        <!-- insert the page content here -->
+        	<div id="contents">
+				<div class="box">
+					<div>
+						<div class="body">
+						
+							<ul id="rooms">
+							
+								<div class="content-wrap">
+      
+      <div class="container">
+        <div class="row">
+        
+    <div class="span12">
+    
+      <ul class="nav nav-tabs" id="subnav-tabs">
+          
+            <!-- switch to us the new upload -->
+
+      </ul>
+    </div>
+    
+  <div class="block">
+    <div class="span8">
+	<h2><a href="layer.html">Explore Layer</a>
+	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      Upload Layers</h2><br>
+<form id="file-uploader" method="post" enctype="multipart/form-data">
+ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+     <b>Owner</b>   &nbsp;&nbsp;&nbsp;&nbsp;<input type="text" name="owner"><br><br>
+	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+	<b> Title </b>&nbsp;&nbsp;&nbsp;<input type="text" name="title"><br><br>
+	 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+	<b> Abstract </b> <textarea rows="4" cols="30">
+</textarea><br><br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<b> Keywords </b>&nbsp;&nbsp;&nbsp;<input type="text" name="keywords"><br><br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  <b> Category </b>    <select name="category">
+		     <option value="Search All Category">-------</option>
+              <option value="Land Use Land Cover">Land Use Land Cover</option>
+               <option value="Hydrography">Hydrography</option>
+			    <option value="Elivation">Elivation</option>
+                   </select><br><br>
+				   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<b> language</b>		 <select name="Language">
+                 <option value="English">Englis</option>
+                  <option value="Amharic">Amharic</option>
+                  </select><br><br>
+				  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+				  <b>Purpose </b> <textarea rows="4" cols="30">
+</textarea><br><br>
+	 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+	 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+	 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+	         <input type="text" name="text">
+          <input type="file" name="fileField"><br /><br /><br>
+		  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+	 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+	 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+	 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+	 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+	 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+	 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+	 
+  <input type="submit" name="submit" value="Upload File">
+  <input type="submit" name="submit" value="Clear">
+        </form>
+
+
+
+   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+        
+    </div>
+
+    
+
+
+
+
+
+        </div>
+      </div> <!-- /.container -->
+    </div>
+
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+      </div>
+    </div>
+    <div id="content_footer"></div>
+    <div id="footer">
+<p>      Copyright @......</p>
+    </div>
+  </div>
+</body>
+</html>
